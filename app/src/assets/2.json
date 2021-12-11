@@ -1,0 +1,23 @@
+{
+    "name": "Sabo",
+    "symbol": "",
+    "image": "2.png",
+    "collection": {
+        "name": "Sabo X One Piece Bros",
+        "family": "One Piece Bros"
+     },
+    "properties": {
+      "files": [
+        {
+          "uri": "2.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "F4W6uZsjJ4TdfLBKK61moNxXpPHH25MEAo4U3R77zQrF",
+          "share": 100
+        }
+      ]
+    }
+  }

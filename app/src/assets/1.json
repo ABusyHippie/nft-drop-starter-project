@@ -1,0 +1,23 @@
+{
+    "name": "Ace",
+    "symbol": "",
+    "image": "1.png",
+    "collection": {
+        "name": "Ace X One Piece Bros",
+        "family": "One Piece Bros"
+     },
+    "properties": {
+      "files": [
+        {
+          "uri": "1.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "F4W6uZsjJ4TdfLBKK61moNxXpPHH25MEAo4U3R77zQrF",
+          "share": 100
+        }
+      ]
+    }
+  }
