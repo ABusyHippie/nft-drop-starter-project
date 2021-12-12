@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 30px 0 30px;
-  color: white;
+  color: rgb(0, 0, 0);
   position: relative;
   /* background-color: #35aee2; */
 }
@@ -59,16 +59,33 @@
 
 .connect-wallet-button {
   color: white;
-  background: -webkit-linear-gradient(left, #ff8867, #ff52ff);
+  /*background: -webkit-linear-gradient(left, #ff8867, #ff0000);*/
+  background-color: #eb702a7a;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  /*background: -webkit-linear-gradient(left, #4e44ce, #35aee2);*/
+  background-color: #eb702a7a;
+  background-size: 200% 200%;
+  /*animation: gradient-animation 4s ease infinite*/
+  margin-left: 10px;
+}
+
+.header-gif {
+  background: -webkit-linear-gradient(left, #fcf26b, #f70606);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-left: 10px;
+}
+
+.mining-gif{
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
 }
 
 .footer-container {

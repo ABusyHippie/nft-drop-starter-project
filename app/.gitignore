@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 .env
+.cache/devnet-temp
 
 # testing
 /coverage

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import twitterLogo from "./assets/twitter-logo.svg";
+import CandyMachine from './CandyMachine';
 
 // Constants
 const TWITTER_HANDLE = "abusyhippie";
@@ -63,12 +64,13 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="container">
+      <div className="container header-gif">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
-          <p className="sub-text">NFT drop machine with fair mint</p>
+          <p className="header">🏴‍☠️ One Piece NFT Drop</p>
+          <p className="sub-text">NFT drop machine built on Metaplex</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
+        {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
